@@ -1,0 +1,213 @@
+baseURL: https://vbranch.cn
+languageCode: zh-cn
+title: 木叉一人工作室
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+  # preloader: false
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: favicon.png
+    link: /
+    # Default width/height. Uncomment if you need to change
+    width: 40
+    height: 36
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: 木叉一人工作室
+    # Hero subtitle (optional)
+    subtitle: 追求一人开发的自由感，追求以一己之力达到多人合作项目的开发水平
+    # Button text
+    buttontext: 点击了解
+    # Where the main hero button links to
+    buttonlink: "#section1"
+    # Hero image (from static/images/___)
+    image: favicon.png
+    # Footer logos (from static/images/logos/clients/___.svg)
+    # clientlogos:
+    # - systek
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Github
+    url: https://github.com/venyowong
+  - title: 博客
+    url: https://venyo.cn/
+  - title: 项目
+    sublinks:
+    - title: 泉州旅游指南
+      url: /
+    # - title: Dropdown item
+    #   url: /
+    # - title: Dropdown item
+    #   url: /
+  - title: 文档
+    sublinks:
+    - title: 用户模块
+      url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+  #   button: true
+  # sidebar:
+  #   # Logo (from /images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
+  section1:
+    title: 独自开发的好处
+    # subtitle: with great responsibility
+    tiles:
+    - title: 减少沟通成本
+      icon: mouse-globe
+      # text: This is some explanatory text that is on two rows
+      url: "#section2"
+      buttonText: 了解更多
+    - title: 减少人力成本
+      icon: laptop-cloud
+      # text: This is some explanatory text that is on two rows
+      url: "#section2"
+      buttonText: 了解更多
+    - title: 想法统一
+      icon: plug-cloud
+      # text: This is some explanatory text that is on two rows
+      url: "#section2"
+      buttonText: 了解更多
+  section2:
+    title: 一个人也能完成很多事
+    # subtitle: And we know it
+    features:
+    - title: 泉州旅游指南项目
+      text: 该项目旨在为外来游客介绍泉州本地风景、美食而开发的免费应用。项目使用 .net core 开发后端接口，百度低代码框架 amis 用于开发后台管理页面，Vant 用于开发移动端 H5，并使用了自主封装的用户模块
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: tourist_guide
+    - title: 自主封装的用户模块
+      text: 为了将更多时间投入在业务开发中，对用户模块接口进行了封装，支持邮箱、手机号登录，同时也支持三方平台 OAuth 授权登录
+      icon: user_module
+    # - title: Nomad system
+    #   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    #   icon: mobile-feed
+  section3:
+    title: 常用解决方案
+    subtitle: .net core(后端)、ElementUI(PC)、Vant(移动)、Amis(后台管理系统)    
+    image: illustrations/mockups/app-mockup.png
+    buttonText: 联系我
+    buttonLink: "mailto:venyowong@163.com"
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
+  section5: false
+  footer:
+    # Logo (from /images/logos/___)
+    logo: favicon.png
+    # Social Media Title
+    socialmediatitle: 关注我
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/venyowong
+      # Icons are from Font Awesome
+      icon: github
+    # - link: https://dribbble.com/#
+    #   icon: dribbble
+    # - link: https://facebook.com/#
+    #   icon: facebook
+    # - link: https://twitter.com/lucperkins
+    #   icon: twitter
+    # - link: https://bitbucket.org/#
+    #   icon: bitbucket
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "项目"
+        links:
+        - text: 泉州旅游指南
+          link: /
+        # - text: Why choose our product?
+        #   link: /
+        # - text: Compare features
+        #   link: /
+        # - text: Our roadmap
+        #   link: /
+        # - text: AGB
+        #   link: /agb
+      column2:
+        title: "文档"
+        links:
+        - text: 用户模块
+          link: /
+        # - text: User guides
+        #   link: /
+        # - text: Admin guide
+        #   link: /
+        # - text: Developers
+        #   link: /
+      column3:
+        title: "相关链接"
+        links:
+        - text: 博客
+          link: https://venyo.cn/
+        - text: 备案号
+          link: https://beian.miit.gov.cn/
