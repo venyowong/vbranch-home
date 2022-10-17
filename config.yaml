@@ -56,7 +56,7 @@ params:
   - title: 项目
     sublinks:
     - title: 泉州旅游指南
-      url: /
+      url: https://vbranch.cn/tg/#/
     # - title: Dropdown item
     #   url: /
     # - title: Dropdown item
@@ -64,7 +64,7 @@ params:
   - title: 文档
     sublinks:
     - title: 用户模块
-      url: /
+      url: https://github.com/venyowong/V.ClassLibrary/tree/main/V.User
   # - title: Log in
   #   url: /
   # - title: Sign up
@@ -184,7 +184,7 @@ params:
         title: "项目"
         links:
         - text: 泉州旅游指南
-          link: /
+          link: https://vbranch.cn/tg/#/
         # - text: Why choose our product?
         #   link: /
         # - text: Compare features
@@ -197,7 +197,7 @@ params:
         title: "文档"
         links:
         - text: 用户模块
-          link: /
+          link: https://github.com/venyowong/V.ClassLibrary/tree/main/V.User
         # - text: User guides
         #   link: /
         # - text: Admin guide
@@ -209,5 +209,5 @@ params:
         links:
         - text: 博客
           link: https://venyo.cn/
-        - text: 备案号
+        - text: 闽ICP备2022014944号-1
           link: https://beian.miit.gov.cn/
