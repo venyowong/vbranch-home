@@ -33,7 +33,7 @@ params:
     # Main hero title
     title: 木叉一人工作室
     # Hero subtitle (optional)
-    subtitle: 追求一人开发的自由感，追求以一己之力达到多人合作项目的开发水平
+    subtitle: 追求独自开发的自由感，追求以一己之力达到多人合作的开发效率
     # Button text
     buttontext: 点击了解
     # Where the main hero button links to
@@ -104,25 +104,25 @@ params:
   #       url: /
   #     - text: App settings
   #       url: /
-  section1:
-    title: 独自开发的好处
-    # subtitle: with great responsibility
-    tiles:
-    - title: 减少沟通成本
-      icon: mouse-globe
-      # text: This is some explanatory text that is on two rows
-      url: "#section2"
-      buttonText: 了解更多
-    - title: 减少人力成本
-      icon: laptop-cloud
-      # text: This is some explanatory text that is on two rows
-      url: "#section2"
-      buttonText: 了解更多
-    - title: 想法统一
-      icon: plug-cloud
-      # text: This is some explanatory text that is on two rows
-      url: "#section2"
-      buttonText: 了解更多
+  # section1:
+  #   title: 独自开发的好处
+  #   # subtitle: with great responsibility
+  #   tiles:
+  #   - title: 减少沟通成本
+  #     icon: mouse-globe
+  #     # text: This is some explanatory text that is on two rows
+  #     url: "#section2"
+  #     buttonText: 了解更多
+  #   - title: 减少人力成本
+  #     icon: laptop-cloud
+  #     # text: This is some explanatory text that is on two rows
+  #     url: "#section2"
+  #     buttonText: 了解更多
+  #   - title: 想法统一
+  #     icon: plug-cloud
+  #     # text: This is some explanatory text that is on two rows
+  #     url: "#section2"
+  #     buttonText: 了解更多
   section2:
     title: 一个人也能完成很多事
     # subtitle: And we know it
