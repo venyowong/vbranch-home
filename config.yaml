@@ -57,14 +57,30 @@ params:
     sublinks:
     - title: 泉州旅游指南
       url: https://vbranch.cn/tg/#/
-    # - title: Dropdown item
-    #   url: /
+    - title: hotoke
+      url: https://vbranch.cn/hotoke/
     # - title: Dropdown item
     #   url: /
   - title: 文档
     sublinks:
     - title: 用户模块
       url: https://github.com/venyowong/V.ClassLibrary/tree/main/V.User
+  - title: 一人工作室教程
+    sublinks:
+    - title: 1. 简介
+      url: https://www.bilibili.com/video/BV1EG411A7EU/
+    - title: 2. 项目设计
+      url: https://www.bilibili.com/video/BV1oG4y1b7ST/
+    - title: 3. 项目实践(一)
+      url: https://www.bilibili.com/video/BV11D4y1t7UU/
+    - title: 4. 项目实践(二) 使用 Amis 搭建后台管理系统(上)
+      url: https://www.bilibili.com/video/BV1nd4y187gp/
+    - title: 5. 项目实践(三) 使用 Amis 搭建后台管理系统(下)
+      url: https://www.bilibili.com/video/BV1QG411M74w/
+    - title: 6. 项目实践(四)
+      url: https://www.bilibili.com/video/BV1JR4y167aW/
+    - title: 7. 项目成型、部署上线
+      url: https://www.bilibili.com/video/BV1eG411N7QV/
   # - title: Log in
   #   url: /
   # - title: Sign up
@@ -134,9 +150,9 @@ params:
     - title: 自主封装的用户模块
       text: 为了将更多时间投入在业务开发中，对用户模块接口进行了封装，支持邮箱、手机号登录，同时也支持三方平台 OAuth 授权登录
       icon: user_module
-    # - title: Nomad system
-    #   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-    #   icon: mobile-feed
+    - title: 独自开发的元搜索引擎
+      text: hotoke 是一款独自开发的元搜索引擎，能够整合多个搜索引擎的搜索结果
+      icon: hotoke
   section3:
     title: 常用解决方案
     subtitle: .net core(后端)、ElementUI(PC)、Vant(移动)、Amis(后台管理系统)    
@@ -170,10 +186,10 @@ params:
     - link: https://github.com/venyowong
       # Icons are from Font Awesome
       icon: github
-    # - link: https://dribbble.com/#
-    #   icon: dribbble
-    # - link: https://facebook.com/#
-    #   icon: facebook
+    - link: https://space.bilibili.com/18791470
+      icon: bilibili
+    - link: https://vbranch.cn/touristguide/files/木叉科技公众号二维码.jpg
+      icon: weixin
     # - link: https://twitter.com/lucperkins
     #   icon: twitter
     # - link: https://bitbucket.org/#
@@ -185,6 +201,8 @@ params:
         links:
         - text: 泉州旅游指南
           link: https://vbranch.cn/tg/#/
+        - text: hotoke
+          link: https://vbranch.cn/hotoke/
         # - text: Why choose our product?
         #   link: /
         # - text: Compare features
